@@ -1,4 +1,6 @@
 FirstApp::Application.routes.draw do
+  get "static_page/home"
+  get "static_page/help"
   resources :microposts
 
   resources :users
